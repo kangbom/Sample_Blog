@@ -9,3 +9,39 @@ h1,h2,h3,h4,h5 {
   margin: 0 0 10px 0;
   padding: 0;
 }
+
+.container {
+  width: 920px;
+  margin: 0 auto 40px auto;
+  padding-top: 30px;
+  background-color: #fff;
+}
+
+.logo {
+  width: 200px;
+  margin: 0 auto 30px auto;
+}
+
+.navigation {
+  width: 100%;
+  background-color: black;
+  padding: 20px 0;
+}
+
+.navigation:after {
+  clear: both;
+  display: block;
+  content: " "
+}
+
+.navigation li {
+  float: left;
+  padding: 0 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.navigation li a{
+  color: white;
+  text-decoration: none;
+}
