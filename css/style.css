@@ -10,6 +10,12 @@ h1,h2,h3,h4,h5 {
   padding: 0;
 }
 
+.background {
+  width: 920px;
+  margin: 0 auto 0 auto;
+  background-color: #fff;
+}
+
 .container {
   width: 920px;
   margin: 0 auto 40px auto;
@@ -44,4 +50,36 @@ h1,h2,h3,h4,h5 {
 .navigation li a{
   color: white;
   text-decoration: none;
+}
+
+.contents {
+  margin: 20px 20px;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+
+.contents:after {
+  clear: left;
+  display: block;
+  content: " ";
+}
+
+.left {
+  width: 600px;
+  float: left;
+}
+
+.right {
+  width: 300px;
+  float: left;
+}
+
+main:after {
+  clear: left;
+  display: block;
+  content: " ";
 }
